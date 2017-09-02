@@ -1,15 +1,3 @@
-
-
-function greenMessage {
-    echo -e "\\033[32;1m${@}\033[0m"
-}
-
-function kekMessage {
-    echo -e "\\033[36;1m${@}\033[0m"
-}
-
-
-
 BOTUSER = $1
 
 
@@ -32,7 +20,7 @@ kekMessage  "               Upgraden"
 sleep 2
 apt-get upgrade
 clear
-kekMessage  "               Benötigte Software herunterladen"
+kekMessage  "               BenÃ¶tigte Software herunterladen"
 wget http://dl.4players.de/ts/releases/3.0.13.8/teamspeak3-server_linux_amd64-3.0.13.8.tar.bz2
 kekMessage  "               Entpacken"
 sleep 2
